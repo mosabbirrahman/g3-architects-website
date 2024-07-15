@@ -9,3 +9,66 @@
   font-weight: 400;
   font-style: normal;
 }
+/* shared stules */
+.display-flex{
+    display: flex;
+}
+
+/* header styles */
+
+/* navber related styles */
+.navbar{
+justify-content: space-between;
+align-items: center;
+}
+.brand{
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+.nav-item{
+     list-style: none;
+     margin: 30px;
+    
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+}
+.text-gray{
+    color: #424242;
+}
+.text-light-gray{
+ color: #727272;
+}
+.bg-light{
+    background-color: rgb(247, 230, 196);
+}
+.navber,.banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* banner related style */
+.banner-contant{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.btn-primary{
+    background-color: tomato;
+    color: white;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 8px;
+    gap: 10px;
+}
+.banner-image{
+    width: 100%;
+}
+/* responsive media query */
+@media screen and (max-width:576px){
+.navber, .nav-link{
+    flex-direction: column;
+}
+}
