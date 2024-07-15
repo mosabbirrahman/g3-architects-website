@@ -68,7 +68,22 @@ align-items: center;
 }
 /* responsive media query */
 @media screen and (max-width:576px){
-.navber, .nav-link{
+.navber, .nav-link {
     flex-direction: column;
 }
+}
+.teams{
+    align-items: center;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+main > section{
+    margin-top: 130px;
+}
+.our-features{
+    margin-left: 130px;
+    max-width: 
 }
